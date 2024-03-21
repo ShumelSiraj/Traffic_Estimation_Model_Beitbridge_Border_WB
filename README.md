@@ -22,6 +22,6 @@ The project outlines a roadmap for integrating additional data types and analyti
 A list of references used in the development and analysis of the traffic volume estimation model is included in the project documentation.
 
 ## How to Use This Repository
-- **Documentation**: Detailed project report and methodology are available in the `docs` folder.
-- **Code**: Source code for the traffic volume estimation model is located in the `src` folder.
+- **Documentation**: Detailed project report and methodology are available in the `document` folder.
+- **Code**: Source code for the traffic volume estimation model is located in the `srcipt` folder.
 - **Data**: Access to the traffic count and economic data used in the model can be found in the `data` folder.
