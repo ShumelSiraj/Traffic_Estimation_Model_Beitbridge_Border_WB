@@ -1,40 +1,27 @@
-# Traffic Estimation Model for Beitbridge Border
+# Beitbridge Border Traffic Volume Estimating Model
 
 ## Introduction
-Traffic congestion at the Beitbridge border between Zimbabwe and South Africa is a critical issue with far-reaching economic and logistical implications. Accurate traffic estimation and prediction are essential for effective management and planning. This project aims to develop a comprehensive Traffic Estimation Model that leverages ground truth data and remote sensing observations to provide real-time traffic flow information.
+The Beitbridge Border Traffic Volume Estimation Model was developed to analyze and predict traffic flow at the Beitbridge border post, a crucial gateway between South Africa and Zimbabwe. This model is part of a larger initiative by the World Bank aimed at enhancing trade transparency and understanding trade node activities in the Southern African region.
 
-## Project Objectives
-* Explore and preprocess Crickmay Trucks GPS Data.
-* Conduct a literature review of traffic flow estimation models.
-* Develop a traffic flow model tailored to Beitbridge border characteristics.
-* Integrate remote sensing data for improved accuracy.
-* Implement data assimilation techniques and regression methods.
-* Visualize and document results.
-* Present findings through posters and oral presentations.
+## Project Overview
+The model leverages toll station data to provide a detailed count of traffic volumes, aiding in the efficient management and planning of border crossings. By analyzing and predicting traffic flow patterns, the model supports congestion management, urban planning, policy decisions, resource allocation, and real-time updates for navigation systems.
+
+## Data Description
+The dataset encompasses traffic count data from 2018 to 2022, recorded at three-hour intervals from two toll stations near Beitbridge. It includes detailed vehicle classification and incorporates economic indicators and fuel prices to enhance the analysis.
 
 ## Methodology
-* Data Exploration and Preprocessing
-* Use statistical methods (e.g., histograms) to analyze data distribution.
-* Identify and remove erroneous data through visualizations and outlier detection.
-* Literature Review and Model Selection
-* Conduct an extensive review of traffic flow estimation models from academic sources.
-* Select or design a model suitable for Beitbridge border traffic.
+The model employs a combination of time-series analysis and machine learning techniques, primarily using the Random Forest algorithm. It also incorporates feature engineering, including lagged traffic volumes and economic indicators, to predict traffic flow accurately.
 
-## Model Development
-* Calibrate the model using ground truth data.
-* Integrate remote sensing observations, addressing missing data.
-* Employ data assimilation techniques and regression for accurate predictions.
+## Results
+The model has demonstrated high predictive accuracy, especially when combining lagged data and historical averages. Comparative analysis with other machine learning algorithms like Linear Regression and Decision Tree models validates the robustness of the Random Forest approach.
 
-## Documentation and Reporting
-* Thoroughly document modifications and code.
-* Provide clear instructions for code usage.
-* Create a short report following GW University format.
-* Prepare visually appealing posters and oral presentations.
+## Future Enhancements
+The project outlines a roadmap for integrating additional data types and analytical methods to further refine traffic predictions. This includes leveraging historic and real-time traffic data, external factors like weather conditions, and advanced machine learning and deep learning techniques.
 
-## Expected Outcomes
-* A robust Traffic Estimation Model tailored to Beitbridge border.
-* Real-time traffic flow information for improved border management.
-* Comprehensive documentation for code and project findings.
+## References
+A list of references used in the development and analysis of the traffic volume estimation model is included in the project documentation.
 
-## Conclusion
-The Traffic Estimation Model for Beitbridge border is a critical project that addresses traffic congestion issues and contributes to efficient border management. This proposal outlines a structured approach to achieve the project objectives. We believe that this endeavor will have a significant positive impact on the region's transportation infrastructure.
+## How to Use This Repository
+- **Documentation**: Detailed project report and methodology are available in the `docs` folder.
+- **Code**: Source code for the traffic volume estimation model is located in the `src` folder.
+- **Data**: Access to the traffic count and economic data used in the model can be found in the `data` folder.
